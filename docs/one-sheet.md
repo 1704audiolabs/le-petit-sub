@@ -54,14 +54,13 @@ sheet_label: One-sheet — Le Petit Sub
 <p><span>Damping</span><span>300–500 g loose wool, lower half and corners</span></p>
 </div>
 <div class="receipt">
-<p class="head"><span>LE PETIT SUB</span><span>OCT 2026</span></p>
-<p><span>2 × SB26SFCL38-4, 10″</span><span>€146</span></p>
-<p><span>Shipping, approx.</span><span>€10</span></p>
-<p><span>12 × M5 inserts + screws</span><span>€10</span></p>
-<p><span>Gasket tape, wool fill</span><span>€15</span></p>
-<p><span>4-core cable + M20 gland</span><span>€8</span></p>
-<p class="total"><span>PARTS</span><span>≈ €190</span></p>
-<p class="extra"><span>+ 22 mm OSB, one board</span><span>DIY store</span></p>
+<p class="head"><span>LE PETIT SUB</span><span>QTY</span></p>
+<p><span>OSB 22 mm, 2000 × 1000</span><span>1</span></p>
+<p><span>SB26SFCL38-4, 10″, 4 Ω</span><span>2</span></p>
+<p><span>M5 inserts + screws</span><span>12</span></p>
+<p><span>Biscuits, size 20</span><span>48</span></p>
+<p><span>M20 cable gland</span><span>1</span></p>
+<p class="extra"><span>+ gasket tape, wool, 4-core cable</span><span></span></p>
 </div>
 <div class="build">
 <img src="../assets/one-sheet-qr.svg" alt="QR code linking to 1704audiolabs.github.io/le-petit-sub">

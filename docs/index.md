@@ -38,12 +38,12 @@ The companion to [Le Petit](https://github.com/1704audiolabs/le-petit).
 > - **2 × SB Acoustics SB26SFCL38-4** (10″) in the side panels, back to back: the forces on the box
 >   cancel, and the front stays a quiet face.
 > - **Sealed, ≈ 40 l net**, braced, glued shut; the drivers sit flush and come out from outside.
-> - **≈ €190 in parts** plus the OSB board. Every drawing is generated from one file of dimensions.
+> - **One OSB board, two drivers and a handful of small parts.** Every drawing is generated from one file of dimensions.
 
 ## Contents
 
 [Why a sub](#why-a-sub) · [How it works](#how-it-works) · [3D model](#3d-model) · [Build it](#build-it) ·
-[Parts and cost](#parts-and-cost) · [Repository map](#repository-map) · [Credits](#credits-and-license)
+[Parts](#parts) · [Repository map](#repository-map) · [Credits](#credits-and-license)
 
 ## Why a sub
 
@@ -112,19 +112,15 @@ drivers, leak test.
 > *preliminary data*. Rout a test recess in scrap and drop a delivered driver in before you touch
 > the side panels, and measure your OSB — if it isn't exactly 22 mm, the inside sizes change with it.
 
-## Parts and cost
+## Parts
 
-Driver price from soundimports.eu (NL, ships within the EU), small parts from the DIY store, October 2026.
-
-| Part | Cost |
-| --- | ---: |
-| 2 × SB Acoustics SB26SFCL38-4, 10″, 4 Ω, €72.95 each | €146 |
-| Shipping, approx. | €10 |
-| 12 × M5 inserts + 12 × M5 × 16 screws | €10 |
-| Gasket tape and wool fill | €15 |
-| 4-core speaker cable + M20 cable gland | €8 |
-| **Parts** | **≈ €190** |
-| 22 mm OSB, one 2000 × 1000 board (0.92 m² used) | DIY store |
+| Qty | Part |
+| ---: | --- |
+| 1 | 22 mm OSB, one 2000 × 1000 board (0.92 m² used) |
+| 2 | SB Acoustics SB26SFCL38-4, 10″, 4 Ω |
+| 12 | M5 inserts + M5 × 16 screws |
+| | gasket tape, 300–500 g wool fill |
+| | 4-core speaker cable, M20 cable gland |
 
 ## Repository map
 
