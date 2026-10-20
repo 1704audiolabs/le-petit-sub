@@ -3,6 +3,7 @@ template: home.html
 cover_image: assets/3d/with-le-petit.png
 cover_alt: 3D model of the sub between a Le Petit pair
 cover_kicker: 02 · Le Petit Sub
+cover_title: "Le Petit's bigger twin: two opposed 10″ drivers, built from <i>one sheet of OSB.</i>"
 cover_links:
   - [3D model, 3d-model/]
   - [Build guide, 01-build/]
