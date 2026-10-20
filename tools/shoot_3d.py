@@ -14,7 +14,7 @@ from svg2png import chrome
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "assets" / "3d"
-SHOTS = {"with-le-petit": "", "cut-open": "&view=front&pair=0", "exploded": "&view=explode&pair=0"}
+SHOTS = {"with-le-petit": "", "see-through": "&view=xray&pair=0", "cut-open": "&view=front&pair=0", "exploded": "&view=explode&pair=0"}
 
 
 class Quiet(http.server.SimpleHTTPRequestHandler):

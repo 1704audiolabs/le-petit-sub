@@ -1,28 +1,19 @@
 ---
 template: one-sheet.html
 title: Le Petit Sub on one page
-description: The belief behind the project, and Le Petit Sub on one A4 page — a sealed subwoofer with two opposed 10″ drivers, built from one sheet of OSB with Le Petit's front.
+description: Le Petit Sub on one A4 page — a sealed subwoofer with two opposed 10″ drivers, built from one sheet of OSB with Le Petit's front.
 sheet_label: One-sheet — Le Petit Sub
 ---
 
 <header class="mast"><span class="wordmark">1704 Audio Labs</span><span>02 · Le Petit Sub</span><span>October 2026</span></header>
-<section class="belief" aria-label="Belief">
-<span class="lab">Belief</span>
-<h1 class="belief__title">There is no correct sound, only the endless, joyful search for <i>yours</i>.</h1>
-<p class="belief__text">Recordings are mixed by people, in rooms, to taste. Playback can never be a window onto an original you were never part of, so the goal is not fidelity but finding what you love, for the music and the moment you are in.</p>
-</section>
-<section class="grid principles" aria-label="Principles of sound exploration">
-<span></span><span class="col col--p">Precision</span><span class="col col--c">Character</span>
-<div class="row"><b>Foundation</b><span>what makes it possible</span></div>
-<div class="cell tint-p"><b>Technical freedom</b><span>DSP and affordable class D amps make every speaker reconfigurable. Crossovers, EQ and voicings change in software, so you are never locked in.</span></div>
-<div class="cell tint-c"><b>Physical palette</b><span>Box, open baffle, horn and subwoofer move air in physically different ways. Built as cheap DIY, they form a palette to combine, even in unusual ways. The room is part of the instrument.</span></div>
-<div class="row"><b>Way of working</b><span>how to use it</span></div>
-<div class="cell tint-p"><b>Measure to understand</b><span>A calibrated microphone and real data make every experiment deliberate. Compare level-matched, because louder always sounds better.</span></div>
-<div class="cell tint-c"><b>Taste decides</b><span>No dogma. EQ, presets and voicings for different music or moods are legitimate. Changing your mind is part of the game.</span></div>
-</section>
-<section class="turn" aria-label="Applied">
-<span class="lab">Applied · 02 Le Petit Sub, companion to Le Petit</span>
-<h2 class="turn__title">Le Petit's bigger twin: two opposed 10″ drivers, built from <i>one sheet of OSB.</i></h2>
+<section class="cover" aria-label="Le Petit Sub">
+<img src="../assets/3d/with-le-petit.png" alt="3D model: the sub between a Le Petit pair">
+<div class="cover__body">
+<span class="cover__kicker">02 · companion to Le Petit</span>
+<h1 class="cover__name">Le Petit Sub</h1>
+<p class="cover__finding">Le Petit's bigger twin: two opposed 10″ drivers, built from <i>one sheet of OSB.</i></p>
+<p class="cover__claim"><b>Measure &amp; Taste</b> · There is no correct sound, only the endless, joyful search for <i>yours</i>. <a href="https://1704audiolabs.github.io/">Principles of sound exploration →</a></p>
+</div>
 </section>
 <section class="grid applied" aria-label="Le Petit Sub, calculated and chosen">
 <span></span><span class="col col--p">Precision · calculated</span><span class="col col--c">Character · chosen</span>
@@ -34,7 +25,7 @@ sheet_label: One-sheet — Le Petit Sub
 <p><strong>≈ 18 kg</strong><span>OSB ≈ 12.5 kg, drivers 2 × 2.9 kg</span></p>
 </div>
 <div class="cell plates">
-<figure class="plate"><img src="../assets/3d/with-le-petit.png" alt="3D model: the sub between a Le Petit pair"><span class="plate__meta"><span>01</span><span>3D model</span></span><span class="plate__title">Part of the set</span><span class="plate__text">Same front, same OSB, the drivers in the sides.</span></figure>
+<figure class="plate"><img src="../assets/3d/see-through.png" alt="3D model, see-through: tie strip, window brace and the wool below it"><span class="plate__meta"><span>01</span><span>3D model</span></span><span class="plate__title">Wool in the lower half</span><span class="plate__text">300–500 g loose, below the window brace.</span></figure>
 <figure class="plate"><img src="../assets/3d/exploded.png" alt="3D model, exploded: full front and back plates, sides, top, bottom and braces"><span class="plate__meta"><span>02</span><span>3D model</span></span><span class="plate__title">Glued shut</span><span class="plate__text">Full 340 × 530 plates front and back.</span></figure>
 <figure class="plate"><img src="../assets/3d/cut-open.png" alt="3D model, cut open: the tie strip between the two magnets"><span class="plate__meta"><span>03</span><span>3D model</span></span><span class="plate__title">Braced inside</span><span class="plate__text">A tie strip between the magnets, a window brace below.</span></figure>
 </div>

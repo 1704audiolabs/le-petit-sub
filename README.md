@@ -6,7 +6,7 @@ OSB with exactly Le Petit's 340 × 530 front.**
 Also readable as a website, with the interactive 3D model: **https://1704audiolabs.github.io/le-petit-sub/** · the whole project on one
 page: **[one-sheet](https://1704audiolabs.github.io/le-petit-sub/one-sheet/)** · part of **[1704 Audio Labs](https://1704audiolabs.github.io/)** — Measure & Taste
 
-<a href="https://1704audiolabs.github.io/le-petit-sub/one-sheet/"><img src="docs/assets/one-sheet.png" alt="The one-sheet: belief, principles and Le Petit Sub on one A4 page" width="300"></a>
+<a href="https://1704audiolabs.github.io/le-petit-sub/one-sheet/"><img src="docs/assets/one-sheet.png" alt="The one-sheet: Le Petit Sub on one A4 page" width="300"></a>
 
 The companion to [Le Petit](https://github.com/1704audiolabs/le-petit).
 
