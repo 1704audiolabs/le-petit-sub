@@ -1,0 +1,49 @@
+site_name: Le Petit Sub
+site_description: Le Petit's bigger twin — a sealed subwoofer with two opposed 10″ drivers from one sheet of OSB, with Le Petit's front.
+site_url: https://1704audiolabs.github.io/le-petit-sub/
+repo_url: https://github.com/1704audiolabs/le-petit-sub
+repo_name: le-petit-sub
+copyright: Docs, drawings and 3D model CC BY-SA 4.0 · tools MIT · companion to Le Petit, designed by Jean Hiraga (1983)
+docs_dir: docs
+theme:
+  name: material
+  custom_dir: overrides
+  # 1704 Audio Labs: one light scheme on warm paper; colours come from docs/assets/brand.css
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  features:
+    - navigation.sections
+    - navigation.footer
+    - toc.follow
+    - search.highlight
+    - content.tables.sort
+    - content.code.copy
+    - navigation.top
+nav:
+  - Principles: https://1704audiolabs.github.io/
+  - Home: index.md
+  - One-sheet: one-sheet.md
+  - 3D model: 3d-model.md
+  - Build:
+      - Build guide: 01-build.md
+      - Building plan: building-plan.md
+      - Driver and box: 02-driver-and-box.md
+  - Credits & license: CREDITS.md
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+extra_css:
+  - assets/brand.css
