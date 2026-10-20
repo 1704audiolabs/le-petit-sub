@@ -5,7 +5,7 @@ description: Le Petit Sub on one A4 page — a sealed subwoofer with two opposed
 sheet_label: One-sheet — Le Petit Sub
 ---
 
-<header class="mast"><span class="wordmark">1704 Audio Labs</span><span>02 · Le Petit Sub</span><span>October 2026</span></header>
+<header class="mast"><img class="logo" src="../assets/logo.svg" alt="1704 Audio Labs"><span>02 · Le Petit Sub</span><span>October 2026</span></header>
 <section class="cover" aria-label="Le Petit Sub">
 <img src="../assets/3d/with-le-petit.png" alt="3D model: the sub between a Le Petit pair">
 <div class="cover__body">
