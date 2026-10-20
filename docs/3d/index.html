@@ -233,11 +233,14 @@ function lePetit(name){
   const disc=(r,y,z,m)=>{const o=new THREE.Mesh(new THREE.CircleGeometry(r,48),m);o.position.set(0,y,z);o.userData=info;g.add(o);return o;};
   disc(52,base+LH-115,zf-22+0.6,M.lpDark); disc(40,base+LH-115,zf-22+1.2,M.lpCone);
   disc(35,base+150,zf+0.6,M.lpCone);
-  const leg=(x,z)=>{const l=new THREE.Mesh(new THREE.CylinderGeometry(3,3,300,12),M.steel);l.position.set(x,base-150,z);l.userData={name:'Le Petit stand',info:'300 high'};g.add(l);};
-  const zc=zf-22-LD/2;
-  [[-148,zc-90],[148,zc-90],[-148,zc+90],[148,zc+90]].forEach(([x,z])=>leg(x,z));
-  [-148,148].forEach(x=>{const r=new THREE.Mesh(new THREE.CylinderGeometry(3,3,180,12).rotateX(Math.PI/2),M.steel);r.position.set(x,base-150,zc);g.add(r);});
-  const hx=new THREE.Mesh(new THREE.CylinderGeometry(3,3,296,12).rotateZ(Math.PI/2),M.steel);hx.position.set(0,base-150,zc);g.add(hx);
+  // the Le Petit stand as in its plan: Ø6 legs 22 from the box faces (296 × 188 on the axes), an H of bars 60 above the floor
+  const SINFO='Ø6 bright round steel, silver-soldered · legs 22 from the box faces (296 × 188), H of bars 60 above the floor';
+  const zc=zf-22-LD/2, floorY=base-300, barY=floorY+60;
+  const rod=(len,pos,rot)=>{const geo=new THREE.CylinderGeometry(3,3,len,12); if(rot==='x') geo.rotateZ(Math.PI/2); if(rot==='z') geo.rotateX(Math.PI/2);
+    const r=new THREE.Mesh(geo,M.steel); r.position.set(...pos); r.userData={name:'Le Petit stand',info:SINFO}; g.add(r);};
+  [[-148,zc-94],[148,zc-94],[-148,zc+94],[148,zc+94]].forEach(([x,z])=>rod(300,[x,base-150,z]));
+  [-148,148].forEach(x=>rod(188,[x,barY,zc],'z'));
+  rod(296,[0,barY,zc],'x');
   scene.add(g); return g;
 }
 const GAP=130, LPX=W/2+GAP+340/2;
