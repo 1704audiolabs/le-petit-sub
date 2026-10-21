@@ -33,38 +33,15 @@ sheet_label: One-sheet — Le Petit Sub
 <div class="cell fig">
 <span class="lab lab--p">FIG 1 · Top section at driver height, to scale</span>
 <div class="fig__frame fig__frame--crop"><img src="../assets/diagrams/opposed-drivers.svg" alt="Top section: two drivers in the side panels, magnets facing each other; both cones move out together, so the pushes on the box cancel"></div>
-<div class="spec">
-<p><span>Recess</span><span>Ø267 × 4.5 mm, drivers flush on gasket tape</span></p>
-<p><span>Cutout</span><span>Ø231 mm, basket Ø228.9</span></p>
-<p><span>Clearance</span><span>tie strip ≈ 38 mm clear of each magnet</span></p>
-<p><span>Modes</span><span>standing waves start at ≈ 353 Hz: no wall felt</span></p>
-</div>
+<p class="fig__cap">Both cones move out together, so the forces on the box cancel: it doesn't rock, buzz or walk.</p>
 </div>
 <div class="cell tint-c note">
 <p class="note__quote">Below 80 Hz you can't hear where bass comes from, so one sub between the pair is <i>enough</i>.</p>
 <p class="note__text">Le Petit stays Le Petit: its strength is the midrange and the coherence of one full-range driver. The sub only takes over the bottom octaves.</p>
-<p class="note__next"><b>Why opposed</b>Two mirrored drivers with the same signal push in opposite directions, so the box doesn't rock, buzz through the floor or walk.</p>
 </div>
 </section>
-<footer class="foot">
-<div class="spec">
-<p><span>Box</span><span>340 × 530 × 350 mm outside, 296 × 486 × 306 mm inside</span></p>
-<p><span>Drivers</span><span>2 × SB26SFCL38-4, 10″, 4 Ω, in the side panels</span></p>
-<p><span>Joints</span><span>biscuits (size 20) and wood glue, glued shut</span></p>
-<p><span>Damping</span><span>300–500 g loose wool, lower half and corners</span></p>
-</div>
-<div class="receipt">
-<p class="head"><span>LE PETIT SUB</span><span>QTY</span></p>
-<p><span>OSB 22 mm, 2000 × 1000</span><span>1</span></p>
-<p><span>SB26SFCL38-4, 10″, 4 Ω</span><span>2</span></p>
-<p><span>M5 inserts + screws</span><span>12</span></p>
-<p><span>Biscuits, size 20</span><span>48</span></p>
-<p><span>M20 cable gland</span><span>1</span></p>
-<p class="extra"><span>+ gasket tape, wool, 4-core cable</span><span></span></p>
-</div>
-<div class="build">
-<img src="../assets/one-sheet-qr.svg" alt="QR code linking to 1704audiolabs.github.io/le-petit-sub">
-<p><span class="lab">Build it</span>13 steps, three plan sheets, the cutting plan and an interactive 3D model.<a class="url" href="https://1704audiolabs.github.io/le-petit-sub/">1704audiolabs.github.io/<wbr>le-petit-sub</a></p>
-</div>
+<footer class="getit">
+<p class="getit__line">Free plans — <i>13 steps, drawings and a 3D model.</i></p>
+<a class="getit__url" href="https://1704audiolabs.github.io/le-petit-sub/">1704audiolabs.github.io/le-petit-sub</a>
 </footer>
 <p class="colophon"><span>rich1704 · Documentation CC BY-SA 4.0 · companion to Le Petit, designed by Jean Hiraga, 1983</span><a href="https://1704audiolabs.github.io/le-petit/one-sheet/">Also: 01 · Le Petit →</a></p>
